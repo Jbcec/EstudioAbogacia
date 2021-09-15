@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="title" content="Borrajo, Sábato & Asociados">
+    <meta name="description" content="Estudio jurídico con más de 30 años de experiencia">
+    <meta name="keywords" content="abogacía, abogados, abogado, abogada, derecho, corporativo, PYME, pymes, penal, empresarial, laboral, civil, estudio, denuncia, juicio, demanda, despido, renuncia, Capital, CABA, Córdoba, Paraná, Argentina">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="Spanish">
+
+    <title>Borrajo, Sabato & Asociados</title>
+    <link rel="alternate" hreflang="es" href="/es" />
+    <link rel="alternate" hreflang="en" href="/en"/>
+    <link rel="alternate" hreflang="x-default" href="/" />
+  </head>
+  <body></body>
+  <script>
+    if (typeof Storage != "undefined") {
+      var language = localStorage.getItem("language");
+      switch (language) {
+        case "en":
+          eng();
+          break;
+
+        default:
+        case "es":
+          esp();
+          break;
+      }
+    } else {
+      esp();
+    }
+
+    function esp() {
+      window.location.href = "/es";
+    }
+
+    function eng() {
+      window.location.href = "/en";
+    }
+  </script>
+</html>
