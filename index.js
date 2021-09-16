@@ -95,9 +95,9 @@ function startIncremento(element, time = 500, stepsAmount = 100){
 }
 
 function esp() {
-  window.location.href = "/es";
+  window.location.href = "/EstudioAbogacia/es";
 }
 
 function eng() {
-  window.location.href = "/en";
+  window.location.href = "/EstudioAbogacia/en";
 }
